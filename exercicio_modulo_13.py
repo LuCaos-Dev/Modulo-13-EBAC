@@ -45,3 +45,4 @@ fig3 = px.treemap(
     title='Mapa Interativo: Distribuição por Categoria, Marca e Desconto Médio'
 )
 fig3.show()
+fig3.write_html("grafico3_mapa_interativo.html")
